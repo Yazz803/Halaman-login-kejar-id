@@ -1,0 +1,245 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(253, 212, 173);
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(
+        rgba(255, 189, 128, 0.7),
+        rgba(255, 189, 128, 0.7)
+    ), url(img/NecoArcWallpaper.jpg);
+    background-size: cover;
+}
+* {
+    box-sizing: border-box;
+}
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+.container {
+    margin-bottom: 100px;
+}
+.column {
+    width: 100%;
+}
+.atas {
+    width: 100%;
+    height: 80px;
+}
+
+.atas table {
+    margin-top: 20px;
+    margin-left: 75px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px black;
+}
+.atas span {
+    font-size: 30px;
+}
+.atas img {
+    width: 25px;
+    width: 25px;
+}
+.atas h2 {
+    font-size: 30px;
+    float: left;
+}
+.atas h3 {
+    float: left;
+}
+.tengah1 {
+    width: 100%;
+    height: 500px;
+    float: left;
+    position: relative;
+}
+.tengah1 .kiri {
+    width: 55%;
+    height: 200px;
+}
+.tengah1 .kiri h1 {
+    font-size: 55px;
+    margin-left: 75px;
+    letter-spacing: 3px;
+    color: white;
+    text-shadow: 0 0 5px black, 0 0 5px black, 0 0 5px black;
+}
+.tengah1 .kiri span {
+    color: blue;
+    text-shadow: 0 0 1px white, 0 0 1px white, 0 0 1px white;
+    font-size: 55px;
+    font-weight: bold;
+}
+.tengah1 .kiri h2 {
+    margin-left: 75px;
+    font-weight: normal;
+    line-height: 30px;
+    margin-top: -20px;
+    color: black;
+    text-shadow: 0 0 1px white, 0 0 2px white, 0 0 3px white;
+}
+.tengah1 .kanan {
+    width: 34%;
+    margin-right: 120px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-right: 50px;
+    background-color: white;
+    border-radius: 10px;
+    float: right;
+    position: absolute;
+    right: 0;
+    bottom: 10%;
+}
+.tengah1 .kanan h3 {
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+.tengah1 .kanan input {
+    padding: 12px;
+    border-radius: 5px;
+    width: 100%;
+}
+.tengah1 .kanan h5 {
+    text-align: center;
+    color: rgb(107, 107, 107);
+    font-weight: normal;
+    font-size: 13px;
+}
+.tengah1 .kanan a {
+    text-decoration: none;
+}
+.kanan .text {
+    border: 1px solid gray;
+    background-color: rgba(198, 212, 214, 0.521);
+    margin-top: 10px;
+}
+.kanan .password {
+    border: 1px solid gray;
+    background-color: rgba(198, 212, 214, 0.521);
+    margin-top: 10px;
+}
+.kanan .submit {
+    background-color: rgb(212, 41, 106);
+    border: 0;
+    color: white;
+    font-size: 15px;
+    transition: .1s ease-in;
+}
+.kanan .submit:hover {
+    background-color: rgb(233, 107, 155);
+}
+
+/* bawah */
+.bawah1 {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    padding-top: 20px;
+}
+.bawah2 {
+    width: 100%;
+    background-color: white;
+    padding: 0 60px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.bawah1 h3 {
+    color: blue;
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+}
+.bawah1 h2 {
+    text-align: center;
+}
+
+.bawahatas {
+    margin-bottom: 20px;
+}
+.kiri {
+    width: 33.33%;
+    float: left;
+}
+.kiri svg {
+    margin-right: 20px;
+    padding: 5px;
+}
+.kiri th {
+    text-align: left;
+    font-size: 20px;
+}
+.kiri span {
+    font-size: 17px;
+    font-weight: normal;
+}
+.tengah {
+    width: 33.33%;
+    float: left;
+}
+.tengah svg {
+    margin-right: 20px;
+    padding: 5px;
+}
+.tengah th {
+    text-align: left;
+    font-size: 20px;
+}
+.tengah span {
+    font-size: 17px;
+    font-weight: normal;
+}
+.kanan {
+    width: 33.33%;
+    float: right;
+}
+.kanan svg {
+    margin-right: 20px;
+    padding: 5px;
+}
+.kanan th {
+    text-align: left;
+    font-size: 20px;
+}
+.kanan span {
+    font-size: 17px;
+    font-weight: normal;
+}
+
+.palingbawah {
+    background-color: rgb(24, 41, 88);
+    width: 100%;
+    padding: 20px 80px 20px 80px;
+    position: relative;
+}
+.palingbawah h5 {
+    color: rgb(185, 185, 185);
+    font-size: 15px;
+    font-weight: normal;
+    float: left;
+}
+.icon {
+    position: absolute;
+    right: 0;
+    bottom: 35%;
+    padding-right: 80px;
+}
+.icon svg {
+    margin-left: 20px;
+    color: white;
+}
