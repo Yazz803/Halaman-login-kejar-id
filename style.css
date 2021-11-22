@@ -366,6 +366,8 @@ body {
     .tengah1 .kanan h3 {
         letter-spacing: 0;
         margin-bottom: 25px;
+        font-size: 18px;
+        text-align: center;
     }
     .kanan label {
         color: rgb(63, 63, 63);
