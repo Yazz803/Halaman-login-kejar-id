@@ -2,12 +2,23 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(253, 212, 173);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif
+}
+body::before {
+    position: fixed;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     background-image: linear-gradient(
-        rgba(255, 189, 128, 0.7),
-        rgba(255, 189, 128, 0.7)
+        rgba(255, 189, 128, 0.5),
+        rgba(255, 189, 128, 0.5)
     ), url(img/NecoArcWallpaper.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
 }
 * {
     box-sizing: border-box;
@@ -80,7 +91,7 @@ body {
 }
 .tengah1 .kiri span {
     color: blue;
-    text-shadow: 0 0 1px white, 0 0 1px white, 0 0 1px white;
+    text-shadow: 0 0 1px rgb(95, 95, 95), 0 0 1px rgb(95, 95, 95), 0 0 1px rgb(95, 95, 95);
     font-size: 55px;
     font-weight: bold;
 }
@@ -89,8 +100,8 @@ body {
     font-weight: normal;
     line-height: 30px;
     margin-top: -20px;
-    color: black;
-    text-shadow: 0 0 1px white, 0 0 2px white, 0 0 3px white;
+    color: white;
+    text-shadow: 0 0 1px black, 0 0 2px black, 0 0 3px black;
 }
 .tengah1 .kanan {
     width: 34%;
@@ -148,12 +159,12 @@ body {
 .bawah1 {
     width: 100%;
     height: 100px;
-    background-color: white;
+    background-image: linear-gradient( rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.7));
     padding-top: 20px;
 }
 .bawah2 {
     width: 100%;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.7);
     padding: 0 60px;
     padding-top: 50px;
     padding-bottom: 20px;
@@ -348,7 +359,7 @@ body {
         font-size: 20px;
         line-height: 29px;
         margin-top: 0;
-        color: black;
+        color: white;
         text-shadow: 0;
     }
     .tengah1 .kanan {
@@ -414,12 +425,12 @@ body {
     .bawah1 {
         width: 100%;
         height: 100px;
-        background-color: white;
+        background-image: linear-gradient( rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.7));
         padding-top: 20px;
     }
     .bawah2 {
         width: 100%;
-        background-color: white;
+        background-color: rgba(255, 255, 255, 0.7);
         padding: 0 20px;
         padding-top: 90px;
         padding-bottom: 20px;
