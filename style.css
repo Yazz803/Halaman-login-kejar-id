@@ -274,8 +274,6 @@ body::before {
     body::before {
         background-position-x: 0;
     }
-        background-size: auto;
-    }
     * {
         box-sizing: border-box;
     }
